@@ -51,5 +51,13 @@
 
 
       // Rest operator VS Spread operator (...)
+/*       function names(...data) {
+        for(let i=0; i < data.length; i++) {
+          console.log(data[i])
+        }
+      }
+      
+      names("Mohamed amine", "Haroun", "Amira", "Majdi", "Abou nasser", "Omar", "Yaakoub") */
+
       
       

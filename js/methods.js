@@ -57,10 +57,13 @@ console.log(res) */
 // Object methods
 
 let person1 = {
-	firstName: "John",
-	lastName: "Doe",
+	name: {
+    firstName: "John",
+	  lastName: "Doe",
+  },
 	age: 50,
 	eyeColor: "blue",
+  job: "Web dev"
 };
 
 const person2 = {
@@ -69,15 +72,14 @@ const person2 = {
     job: "Software developer"
 };
 
-person1 = {
-	age: 50,
-	eyeColor: "blue",
-    firstName: "Anne",
-    lastName: "Smith",
-    job: "Software developer"
-}
 
-console.log({person1, person2})
+let {age, eyeColor, job} = person1
+
+const users = [
+  "Mohamed","haroun", "Amira"
+]
+
+console.log(users)
 
 
 
